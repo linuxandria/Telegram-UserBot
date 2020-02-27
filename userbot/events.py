@@ -1,6 +1,6 @@
 # Copyright (C) 2019 The Raphielscape Company LLC.
 #
-# Licensed under the Raphielscape Public License, Version 1.c (the "License");
+# Licensed under the Raphielscape Public License, Version 1.d (the "License");
 # you may not use this file except in compliance with the License.
 #
 """ Userbot module for managing events.
@@ -76,7 +76,7 @@ def register(**args):
                     date = strftime("%Y-%m-%d %H:%M:%S", gmtime())
 
                     text = "**Sorry, I encountered a error!**\n"
-                    link = "[https://t.me/userbot_support](Userbot Support Chat)"
+                    link = "[https://t.me/tgpaperplane](Userbot Support Chat)"
                     text += "If you wanna you can report it"
                     text += f"- just forward this message to {link}.\n"
                     text += "I won't log anything except the fact of error and date\n"

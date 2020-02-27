@@ -1,6 +1,6 @@
 # Copyright (C) 2019 The Raphielscape Company LLC.
 #
-# Licensed under the Raphielscape Public License, Version 1.c (the "License");
+# Licensed under the Raphielscape Public License, Version 1.d (the "License");
 # you may not use this file except in compliance with the License.
 #
 """ Userbot initialization. """
@@ -66,8 +66,6 @@ OPEN_WEATHER_MAP_APPID = os.environ.get("OPEN_WEATHER_MAP_APPID", None)
 
 WELCOME_MUTE = sb(os.environ.get("WELCOME_MUTE", "False"))
 
-YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
-
 SPOTIFY_USERNAME = os.environ.get("SPOTIFY_USERNAME", None)
 SPOTIFY_PASS = os.environ.get("SPOTIFY_PASS", None)
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
@@ -85,8 +83,6 @@ if not LASTFM_USERNAME == "None":
                            password_hash=LASTFM_PASS)
 else:
     lastfm = None
-
-CURRENCY_API = os.environ.get("CURRENCY_API", None)
 
 GDRIVE_FOLDER = os.environ.get("GDRIVE_FOLDER", None)
 
